@@ -24,3 +24,994 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* =========================================================
+   MIC BANKING ADMIN - DARK THEME
+   ========================================================= */
+
+.admin-theme-dark {
+  background: #050505 !important;
+  color: #ffffff !important;
+  color-scheme: dark;
+}
+
+/* Main page background */
+.admin-theme-dark,
+.admin-theme-dark main,
+.admin-theme-dark section {
+  background-color: #050505;
+}
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.admin-theme-dark header {
+  background: #090909 !important;
+  color: #ffffff !important;
+  border-color: #242424 !important;
+  box-shadow: none !important;
+}
+
+/* =========================================================
+   SIDEBAR
+   ========================================================= */
+
+.admin-theme-dark aside {
+  background: #090909 !important;
+  color: #ffffff !important;
+  border-color: #242424 !important;
+}
+
+/* =========================================================
+   COMMON BACKGROUNDS
+   ========================================================= */
+
+.admin-theme-dark .bg-white {
+  background-color: #0d0d0d !important;
+}
+
+.admin-theme-dark .bg-gray-50 {
+  background-color: #101010 !important;
+}
+
+.admin-theme-dark .bg-gray-100 {
+  background-color: #171717 !important;
+}
+
+.admin-theme-dark .bg-gray-200 {
+  background-color: #202020 !important;
+}
+
+.admin-theme-dark .bg-slate-50 {
+  background-color: #0d0d0d !important;
+}
+
+.admin-theme-dark .bg-slate-100 {
+  background-color: #151515 !important;
+}
+
+.admin-theme-dark .bg-slate-200 {
+  background-color: #202020 !important;
+}
+
+.admin-theme-dark .bg-zinc-50 {
+  background-color: #0d0d0d !important;
+}
+
+.admin-theme-dark .bg-zinc-100 {
+  background-color: #151515 !important;
+}
+
+.admin-theme-dark .bg-neutral-50 {
+  background-color: #0d0d0d !important;
+}
+
+.admin-theme-dark .bg-neutral-100 {
+  background-color: #151515 !important;
+}
+
+/* =========================================================
+   TEXT
+   ========================================================= */
+
+.admin-theme-dark .text-black {
+  color: #ffffff !important;
+}
+
+.admin-theme-dark .text-gray-950,
+.admin-theme-dark .text-gray-900,
+.admin-theme-dark .text-slate-950,
+.admin-theme-dark .text-slate-900,
+.admin-theme-dark .text-zinc-950,
+.admin-theme-dark .text-zinc-900 {
+  color: #ffffff !important;
+}
+
+.admin-theme-dark .text-gray-800,
+.admin-theme-dark .text-slate-800,
+.admin-theme-dark .text-zinc-800 {
+  color: #f0f0f0 !important;
+}
+
+.admin-theme-dark .text-gray-700,
+.admin-theme-dark .text-slate-700,
+.admin-theme-dark .text-zinc-700 {
+  color: #d0d0d0 !important;
+}
+
+.admin-theme-dark .text-gray-600,
+.admin-theme-dark .text-slate-600,
+.admin-theme-dark .text-zinc-600 {
+  color: #b5b5b5 !important;
+}
+
+.admin-theme-dark .text-gray-500,
+.admin-theme-dark .text-slate-500,
+.admin-theme-dark .text-zinc-500 {
+  color: #858585 !important;
+}
+
+.admin-theme-dark .text-gray-400,
+.admin-theme-dark .text-slate-400,
+.admin-theme-dark .text-zinc-400 {
+  color: #686868 !important;
+}
+
+/* =========================================================
+   BORDERS
+   ========================================================= */
+
+.admin-theme-dark .border-white {
+  border-color: #242424 !important;
+}
+
+.admin-theme-dark .border-gray-100,
+.admin-theme-dark .border-gray-200,
+.admin-theme-dark .border-gray-300 {
+  border-color: #242424 !important;
+}
+
+.admin-theme-dark .border-slate-100,
+.admin-theme-dark .border-slate-200,
+.admin-theme-dark .border-slate-300 {
+  border-color: #242424 !important;
+}
+
+.admin-theme-dark .border-zinc-100,
+.admin-theme-dark .border-zinc-200,
+.admin-theme-dark .border-zinc-300 {
+  border-color: #242424 !important;
+}
+
+/* =========================================================
+   MIC BANKING GOLD
+   ========================================================= */
+
+.admin-theme-dark .bg-blue-500,
+.admin-theme-dark .bg-blue-600 {
+  background-color: #f5b800 !important;
+}
+
+.admin-theme-dark .bg-blue-700 {
+  background-color: #dca500 !important;
+}
+
+.admin-theme-dark .text-blue-400,
+.admin-theme-dark .text-blue-500,
+.admin-theme-dark .text-blue-600,
+.admin-theme-dark .text-blue-700 {
+  color: #ffc400 !important;
+}
+
+.admin-theme-dark .border-blue-500,
+.admin-theme-dark .border-blue-600,
+.admin-theme-dark .border-blue-700 {
+  border-color: #f5b800 !important;
+}
+
+.admin-theme-dark .bg-blue-50 {
+  background-color: rgba(245, 184, 0, 0.10) !important;
+}
+
+.admin-theme-dark .bg-blue-100 {
+  background-color: rgba(245, 184, 0, 0.14) !important;
+}
+
+/* Yellow */
+.admin-theme-dark .bg-yellow-400,
+.admin-theme-dark .bg-yellow-500 {
+  background-color: #f5b800 !important;
+}
+
+.admin-theme-dark .text-yellow-400,
+.admin-theme-dark .text-yellow-500 {
+  color: #ffc400 !important;
+}
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.admin-theme-dark button.bg-white {
+  background-color: #111111 !important;
+  color: #ffffff !important;
+}
+
+.admin-theme-dark button.bg-gray-50,
+.admin-theme-dark button.bg-gray-100 {
+  background-color: #151515 !important;
+}
+
+.admin-theme-dark button:hover {
+  transition: background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+/* =========================================================
+   INPUTS / SELECT / TEXTAREA
+   ========================================================= */
+
+.admin-theme-dark input,
+.admin-theme-dark select,
+.admin-theme-dark textarea {
+  background-color: #111111 !important;
+  color: #ffffff !important;
+  border-color: #2a2a2a !important;
+}
+
+.admin-theme-dark input::placeholder,
+.admin-theme-dark textarea::placeholder {
+  color: #666666 !important;
+}
+
+.admin-theme-dark input:focus,
+.admin-theme-dark select:focus,
+.admin-theme-dark textarea:focus {
+  border-color: #f5b800 !important;
+  outline-color: #f5b800 !important;
+}
+
+/* =========================================================
+   CHECKBOX / RADIO
+   ========================================================= */
+
+.admin-theme-dark input[type="checkbox"],
+.admin-theme-dark input[type="radio"] {
+  accent-color: #f5b800;
+}
+
+.admin-theme-dark input[type="checkbox"]:checked,
+.admin-theme-dark input[type="radio"]:checked {
+  accent-color: #f5b800;
+}
+
+/* =========================================================
+   TABLES
+   ========================================================= */
+
+.admin-theme-dark table {
+  background-color: #0d0d0d !important;
+  color: #ffffff !important;
+}
+
+.admin-theme-dark thead {
+  background-color: #111111 !important;
+  color: #d0d0d0 !important;
+}
+
+.admin-theme-dark tbody {
+  background-color: #0d0d0d !important;
+}
+
+.admin-theme-dark tbody tr {
+  background-color: #0d0d0d !important;
+  border-color: #242424 !important;
+}
+
+.admin-theme-dark tbody tr:hover {
+  background-color: #151515 !important;
+}
+
+.admin-theme-dark th,
+.admin-theme-dark td {
+  border-color: #242424 !important;
+}
+
+/* =========================================================
+   LINKS
+   ========================================================= */
+
+.admin-theme-dark a {
+  color: #ffc400;
+}
+
+.admin-theme-dark a:hover {
+  color: #ffffff;
+}
+
+/* =========================================================
+   DIVIDERS
+   ========================================================= */
+
+.admin-theme-dark hr {
+  border-color: #242424 !important;
+}
+
+/* =========================================================
+   PLACEHOLDERS / EMPTY STATES
+   ========================================================= */
+
+.admin-theme-dark .placeholder {
+  color: #686868 !important;
+}
+
+/* =========================================================
+   COMMON CARD SHADOW
+   ========================================================= */
+
+.admin-theme-dark .shadow,
+.admin-theme-dark .shadow-sm,
+.admin-theme-dark .shadow-md,
+.admin-theme-dark .shadow-lg {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35) !important;
+}
+
+/* =========================================================
+   SCROLLBAR
+   ========================================================= */
+
+.admin-theme-dark ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.admin-theme-dark ::-webkit-scrollbar-track {
+  background: #090909;
+}
+
+.admin-theme-dark ::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+  border-radius: 999px;
+}
+
+.admin-theme-dark ::-webkit-scrollbar-thumb:hover {
+  background: #f5b800;
+}
+
+/* =========================================================
+   SELECTION
+   ========================================================= */
+
+.admin-theme-dark ::selection {
+  background: #f5b800;
+  color: #050505;
+}
+
+/* =========================================
+   ADMIN COMPACT MODE
+   ========================================= */
+
+.admin-compact-content {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.admin-compact .rounded-2xl {
+  border-radius: 0.75rem;
+}
+
+.admin-compact .p-6 {
+  padding: 1rem !important;
+}
+
+.admin-compact .px-6 {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.admin-compact .py-6 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.admin-compact .py-5 {
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+}
+
+.admin-compact .space-y-6 > :not([hidden]) ~ :not([hidden]) {
+  margin-top: 1rem !important;
+}
+
+.admin-compact .space-y-5 > :not([hidden]) ~ :not([hidden]) {
+  margin-top: 0.75rem !important;
+}
+
+.admin-compact .gap-6 {
+  gap: 1rem !important;
+}
+
+.admin-compact .gap-5 {
+  gap: 0.75rem !important;
+}
+
+.admin-compact .gap-4 {
+  gap: 0.75rem !important;
+}
+
+.admin-compact table th {
+  padding-top: 0.625rem !important;
+  padding-bottom: 0.625rem !important;
+}
+
+.admin-compact table td {
+  padding-top: 0.625rem !important;
+  padding-bottom: 0.625rem !important;
+}
+
+/* =========================================
+   ADMIN DARK THEME
+   ========================================= */
+
+.admin-theme-dark {
+  background: #050505 !important;
+  color: #ffffff;
+}
+
+.admin-theme-dark main {
+  background: #050505 !important;
+  color: #ffffff;
+}
+
+.admin-theme-dark header {
+  background: #090909 !important;
+  border-color: #242424 !important;
+}
+
+.admin-theme-dark aside {
+  background: #090909 !important;
+  border-color: #242424 !important;
+}
+
+/* Cards */
+.admin-theme-dark .bg-white {
+  background: #0d0d0d !important;
+}
+
+.admin-theme-dark .bg-gray-50 {
+  background: #111111 !important;
+}
+
+.admin-theme-dark .bg-gray-100 {
+  background: #181818 !important;
+}
+
+/* Borders */
+.admin-theme-dark .border-gray-200 {
+  border-color: #242424 !important;
+}
+
+.admin-theme-dark .border-gray-300 {
+  border-color: #2a2a2a !important;
+}
+
+/* Text */
+.admin-theme-dark .text-gray-900 {
+  color: #ffffff !important;
+}
+
+.admin-theme-dark .text-gray-800 {
+  color: #eeeeee !important;
+}
+
+.admin-theme-dark .text-gray-700 {
+  color: #d0d0d0 !important;
+}
+
+.admin-theme-dark .text-gray-600 {
+  color: #b5b5b5 !important;
+}
+
+.admin-theme-dark .text-gray-500 {
+  color: #858585 !important;
+}
+
+.admin-theme-dark .text-gray-400 {
+  color: #686868 !important;
+}
+
+/* MIC Banking Gold */
+.admin-theme-dark .bg-blue-600 {
+  background: #f5b800 !important;
+}
+
+.admin-theme-dark .text-blue-600 {
+  color: #f5b800 !important;
+}
+
+.admin-theme-dark .text-blue-700 {
+  color: #ffc400 !important;
+}
+
+.admin-theme-dark .bg-blue-50 {
+  background: rgba(245, 184, 0, 0.10) !important;
+}
+
+.admin-theme-dark .bg-blue-100 {
+  background: rgba(245, 184, 0, 0.14) !important;
+}
+
+/* Yellow / Gold */
+.admin-theme-dark .bg-yellow-400,
+.admin-theme-dark .bg-yellow-500 {
+  background: #f5b800 !important;
+}
+
+.admin-theme-dark .text-yellow-400 {
+  color: #ffc400 !important;
+}
+
+/* Tables */
+.admin-theme-dark table {
+  color: #ffffff;
+}
+
+.admin-theme-dark thead {
+  background: #111111 !important;
+}
+
+.admin-theme-dark tbody tr {
+  border-color: #242424 !important;
+}
+
+.admin-theme-dark tbody tr:hover {
+  background: #151515 !important;
+}
+
+/* Form fields */
+.admin-theme-dark input,
+.admin-theme-dark select,
+.admin-theme-dark textarea {
+  background: #111111 !important;
+  color: #ffffff !important;
+  border-color: #2a2a2a !important;
+}
+
+.admin-theme-dark input::placeholder {
+  color: #666666 !important;
+}
+
+.admin-theme-dark input:focus,
+.admin-theme-dark select:focus,
+.admin-theme-dark textarea:focus {
+  border-color: #f5b800 !important;
+  outline-color: #f5b800 !important;
+}
+
+/* Gold borders */
+.admin-theme-dark .border-blue-600 {
+  border-color: #f5b800 !important;
+}
+
+/* Checkbox / radio */
+.admin-theme-dark input[type="checkbox"]:checked,
+.admin-theme-dark input[type="radio"]:checked {
+  accent-color: #f5b800;
+}
+
+/* =========================================
+   USER DARK THEME
+   ========================================= */
+
+.user-dark body {
+  background: #050505;
+  color: #ffffff;
+}
+
+/* Main backgrounds */
+.user-dark main {
+  background: #050505;
+  color: #ffffff;
+}
+
+/* White sections */
+.user-dark .bg-white {
+  background: #0d0d0d !important;
+}
+
+/* Light gray sections */
+.user-dark .bg-gray-50 {
+  background: #111111 !important;
+}
+
+.user-dark .bg-gray-100 {
+  background: #181818 !important;
+}
+
+/* Borders */
+.user-dark .border-gray-200 {
+  border-color: #242424 !important;
+}
+
+.user-dark .border-gray-300 {
+  border-color: #2a2a2a !important;
+}
+
+/* Text */
+.user-dark .text-gray-900 {
+  color: #ffffff !important;
+}
+
+.user-dark .text-gray-800 {
+  color: #eeeeee !important;
+}
+
+.user-dark .text-gray-700 {
+  color: #d0d0d0 !important;
+}
+
+.user-dark .text-gray-600 {
+  color: #b5b5b5 !important;
+}
+
+.user-dark .text-gray-500 {
+  color: #858585 !important;
+}
+
+.user-dark .text-gray-400 {
+  color: #686868 !important;
+}
+
+/* MIC Banking Gold */
+.user-dark .bg-blue-600 {
+  background: #f5b800 !important;
+}
+
+.user-dark .bg-blue-700 {
+  background: #d99f00 !important;
+}
+
+.user-dark .text-blue-600 {
+  color: #f5b800 !important;
+}
+
+.user-dark .text-blue-700 {
+  color: #ffc400 !important;
+}
+
+.user-dark .bg-blue-50 {
+  background: rgba(245, 184, 0, 0.10) !important;
+}
+
+.user-dark .bg-blue-100 {
+  background: rgba(245, 184, 0, 0.14) !important;
+}
+
+/* Yellow / Gold */
+.user-dark .bg-yellow-400,
+.user-dark .bg-yellow-500 {
+  background: #f5b800 !important;
+}
+
+.user-dark .text-yellow-400,
+.user-dark .text-yellow-500 {
+  color: #ffc400 !important;
+}
+
+/* Forms */
+.user-dark input,
+.user-dark select,
+.user-dark textarea {
+  background: #111111 !important;
+  color: #ffffff !important;
+  border-color: #2a2a2a !important;
+}
+
+.user-dark input::placeholder,
+.user-dark textarea::placeholder {
+  color: #666666 !important;
+}
+
+.user-dark input:focus,
+.user-dark select:focus,
+.user-dark textarea:focus {
+  border-color: #f5b800 !important;
+  outline-color: #f5b800 !important;
+}
+
+/* Tables */
+.user-dark table {
+  color: #ffffff;
+}
+
+.user-dark thead {
+  background: #111111 !important;
+}
+
+.user-dark tbody tr {
+  border-color: #242424 !important;
+}
+
+.user-dark tbody tr:hover {
+  background: #151515 !important;
+}
+
+/* Cards */
+.user-dark .shadow-sm,
+.user-dark .shadow,
+.user-dark .shadow-md,
+.user-dark .shadow-lg {
+  --tw-shadow-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Gold borders */
+.user-dark .border-blue-600 {
+  border-color: #f5b800 !important;
+}
+
+/* Checkbox / radio */
+.user-dark input[type="checkbox"]:checked,
+.user-dark input[type="radio"]:checked {
+  accent-color: #f5b800;
+}
+
+/* =========================================
+   USER PROFILE DARK THEME
+   ========================================= */
+
+.user-dark main.bg-slate-100 {
+  background: #050505 !important;
+}
+
+.user-dark .bg-blue-900 {
+  background: #090909 !important;
+  border-bottom: 1px solid #242424;
+}
+
+.user-dark .text-slate-900 {
+  color: #ffffff !important;
+}
+
+.user-dark .text-slate-800 {
+  color: #eeeeee !important;
+}
+
+.user-dark .text-slate-700 {
+  color: #d0d0d0 !important;
+}
+
+.user-dark .text-slate-600 {
+  color: #b5b5b5 !important;
+}
+
+.user-dark .text-slate-500 {
+  color: #858585 !important;
+}
+
+.user-dark .bg-white {
+  background: #0d0d0d !important;
+}
+
+.user-dark .border-slate-200 {
+  border-color: #292929 !important;
+}
+
+.user-dark .hover\:bg-slate-50:hover {
+  background: #181818 !important;
+}
+
+.user-dark .text-blue-700 {
+  color: #f5b800 !important;
+}
+
+.user-dark .text-green-700 {
+  color: #f5b800 !important;
+}
+
+.user-dark .bg-red-600 {
+  background: #b91c1c !important;
+}
+
+.user-dark .hover\:bg-red-700:hover {
+  background: #991b1b !important;
+}
+
+/* =========================================
+   USER HOME PAGE DARK THEME
+   ========================================= */
+
+/* Main page */
+.user-dark main.min-h-screen.bg-white {
+  background: #050505 !important;
+  color: #ffffff !important;
+}
+
+/* Light sections */
+.user-dark .bg-slate-50 {
+  background: #0a0a0a !important;
+}
+
+.user-dark .bg-slate-100 {
+  background: #111111 !important;
+}
+
+/* White sections and cards */
+.user-dark .bg-white {
+  background: #0d0d0d !important;
+}
+
+/* Navigation */
+.user-dark nav.bg-white\/95 {
+  background: rgba(9, 9, 9, 0.95) !important;
+  border-color: #242424 !important;
+}
+
+/* Main headings */
+.user-dark .text-slate-900 {
+  color: #ffffff !important;
+}
+
+.user-dark .text-slate-800 {
+  color: #eeeeee !important;
+}
+
+.user-dark .text-slate-700 {
+  color: #d0d0d0 !important;
+}
+
+.user-dark .text-slate-600 {
+  color: #b5b5b5 !important;
+}
+
+.user-dark .text-slate-500 {
+  color: #8a8a8a !important;
+}
+
+.user-dark .text-slate-400 {
+  color: #6f6f6f !important;
+}
+
+/* Borders */
+.user-dark .border-slate-200 {
+  border-color: #242424 !important;
+}
+
+.user-dark .border-slate-300 {
+  border-color: #2d2d2d !important;
+}
+
+/* MIC Banking Gold */
+.user-dark .text-blue-700 {
+  color: #f5b800 !important;
+}
+
+.user-dark .text-blue-600 {
+  color: #f5b800 !important;
+}
+
+.user-dark .text-blue-500 {
+  color: #ffc400 !important;
+}
+
+.user-dark .text-blue-400 {
+  color: #ffc400 !important;
+}
+
+.user-dark .bg-blue-700 {
+  background: #f5b800 !important;
+}
+
+.user-dark .bg-blue-600 {
+  background: #f5b800 !important;
+}
+
+.user-dark .bg-blue-500 {
+  background: #ffc400 !important;
+}
+
+.user-dark .hover\:bg-blue-800:hover {
+  background: #d99f00 !important;
+}
+
+.user-dark .hover\:bg-blue-700:hover {
+  background: #d99f00 !important;
+}
+
+.user-dark .hover\:bg-blue-600:hover {
+  background: #d99f00 !important;
+}
+
+.user-dark .hover\:text-blue-700:hover {
+  color: #ffc400 !important;
+}
+
+.user-dark .hover\:text-blue-900:hover {
+  color: #ffc400 !important;
+}
+
+/* Blue soft backgrounds */
+.user-dark .bg-blue-50 {
+  background: rgba(245, 184, 0, 0.08) !important;
+}
+
+.user-dark .bg-blue-100 {
+  background: rgba(245, 184, 0, 0.14) !important;
+}
+
+/* Blue borders */
+.user-dark .border-blue-200 {
+  border-color: rgba(245, 184, 0, 0.35) !important;
+}
+
+.user-dark .border-blue-400\/20 {
+  border-color: rgba(245, 184, 0, 0.20) !important;
+}
+
+/* Hero remains dark */
+.user-dark .bg-\[\#071a35\] {
+  background: #050505 !important;
+}
+
+/* Hero white banking card */
+.user-dark .bg-white\/10 {
+  background: rgba(255, 255, 255, 0.06) !important;
+}
+
+.user-dark .bg-white\/5 {
+  background: rgba(255, 255, 255, 0.04) !important;
+}
+
+/* White card text */
+.user-dark .text-white {
+  color: #ffffff !important;
+}
+
+/* Digital banking dark cards */
+.user-dark .bg-slate-900 {
+  background: #090909 !important;
+}
+
+/* FAQ */
+.user-dark details {
+  background: #0d0d0d !important;
+  border-color: #242424 !important;
+}
+
+/* Financial tools */
+.user-dark .bg-blue-50 .bg-white {
+  background: #0d0d0d !important;
+}
+
+.user-dark .bg-slate-50 {
+  border-color: #242424;
+}
+
+/* Gold accent for important icons */
+.user-dark .bg-emerald-50 {
+  background: rgba(245, 184, 0, 0.10) !important;
+}
+
+.user-dark .text-emerald-600 {
+  color: #f5b800 !important;
+}
+
+/* Keep positive status green */
+.user-dark .text-emerald-400 {
+  color: #4ade80 !important;
+}
+
+.user-dark .bg-emerald-500\/10 {
+  background: rgba(74, 222, 128, 0.10) !important;
+}
+
+/* Hero account card */
+.user-dark .shadow-xl,
+.user-dark .shadow-2xl,
+.user-dark .shadow-lg,
+.user-dark .shadow-md,
+.user-dark .shadow-sm {
+  --tw-shadow-color: rgba(0, 0, 0, 0.55);
+}
+
